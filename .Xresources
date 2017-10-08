@@ -1,0 +1,60 @@
+!------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+! first two color-window were a013191c
+! a6 = 65% amount of black needed over white for white to be a 7 contrast score
+! b3 = 70%
+! 80 = 50%
+rofi.color-window: argb:a6000000, argb:a6000000, argb:0000000 
+rofi.color-normal: argb:0fdf6e3, #ffffff, argb:0eee8d5, #009688, #ffffff 
+rofi.color-active: #fdf6e3, #268bd2, #eee8d5, #268bd2, #fdf6e3 
+rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
+rofi.line-margin: 31
+rofi.font: Roboto Light 30
+rofi.padding: 168
+rofi.fullscreen: true
+rofi.display-drun: 
+rofi.display-window: win
+rofi.display-combi: myprompt
+
+
+! -----------------------------------------------------------------------------
+! Terminal Color theme
+! -----------------------------------------------------------------------------
+! special
+*.foreground:	#ffffff
+*.background:	#2f343f
+*.cursorColor:	#ffffff
+
+! black
+*.color0:	#000000
+*.color8:	#4d4d4d
+
+! red
+*.color1:	#cc0403
+*.color9:	#3e0605
+
+! green
+*.color2:	#19cb00
+*.color10:	#23fd00
+
+! yellow
+*.color3:	#cecb00
+*.color11:	#fffd00
+
+! blue
+*.color4:	#001cd1
+*.color12:	#0026ff
+
+! magenta
+*.color5:	#cb1ed1
+*.color13:	#fd28ff
+
+! cyan
+*.color6:	#0dcdcd
+*.color14:	#14ffff
+
+! white
+*.color7:	#e5e5e5
+*.color15:	#ffffff
